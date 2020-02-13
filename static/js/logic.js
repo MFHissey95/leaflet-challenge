@@ -2,7 +2,7 @@ var earthquake_url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/
 
 var plate_url = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json"
 
-var API_KEY = "pk.eyJ1IjoibWZoaXNzZXk5NSIsImEiOiJjazN2dWJhZTYwZ2hsM2tsYmg4bHJ5eThnIn0.iLp96IOT56bWdQFf5XX3ow"
+var API_KEY = "YOUR API KEY HERE"
 
 function markerSize(magnitude) {
     return magnitude * 4;
